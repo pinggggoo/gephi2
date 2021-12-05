@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "https://maxim2021us.wixsite.com/maxim-us",
+    "text": "최수빈"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n박서준과 맥심 슈프림골드를 공통적으로 갖고있는 형용사는\n달콤함, 트렌디, 다양한 매력, 스위트, 박력, 로맨틱 입니다.\n\u003c/p\u003e",
+    "intro": "박서준과 맥심커피사이의 형용사 관계성을 연결했습니다",
+    "title": "박서준과 맥심슈프림골드"
+  },
+  "legend": {
+    "edgeLabel": "형용사 연결성",
+    "colorLabel": "중심성",
+    "nodeLabel": "형용사, 배우,제품"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "Id"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
